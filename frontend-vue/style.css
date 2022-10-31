@@ -1,0 +1,125 @@
+/* 
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.upper {
+    min-height: 65vh;
+    background-color: rgba(186, 255, 222, 0.5);
+}
+
+.upper-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-texts {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.upper-texts h1 {
+    font-size: 80px;
+}
+
+.upper-texts p {
+    font-size: 25px;
+}
+
+.upper-form {
+    display: flex;
+}
+
+.upper-form textarea {
+    padding: 7px;
+    height: 200px;
+    resize: none;
+    width: 400px;
+    margin-top: 40px;
+    outline: none;
+    border: 2px solid #44D790;
+    border-radius: 10px;
+}
+
+.upper-form textarea[placeholder] {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.upper-form textarea:first-child {
+    margin-right: 15px;
+}
+
+.upper-form textarea:last-child {
+    margin-left: 15px;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
+
+.ddd {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ddd button {
+    padding: 6px;
+    width: 80px;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.ddd button:hover {
+    opacity: 0.8;
+}
+
+
+/* table section  */
+
+.table-section {
+    margin: 0 auto;
+    width: 900px;
+}
+
+table,
+th,
+td {
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    background-color: #BAFFDE;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid #44D790;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(217, 217, 217, 0.16);
+}
